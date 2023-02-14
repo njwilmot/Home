@@ -118,7 +118,65 @@
         "answer_type": "True/False",
         "answer": false,
         "points": 10
-    }
-            
+    },
+    {
+        "question": "What is the result of 2**3?",
+        "options": [
+          {"text": "4", "value": false},
+          {"text": "8", "value": false},
+          {"text": "16", "value": false},
+          {"text": "6", "value": false}
+        ],
+        "points": 10,
+        "category": "hard"
+      },
+      {
+        "question": "What is the correct syntax to raise an exception in Python?",
+        "options": [
+          {"text": "raise ValueError, 'message'", "value": false},
+          {"text": "raise ValueError ('message')", "value": true},
+          {"text": "raise ('ValueError', 'message')", "value": false},
+          {"text": "throw ValueError ('message')", "value": false},
+          {"text": "None of the above", "value": false}
+        ],
+        "points": 10,
+        "category": "hard"
+      },
+      {
+        "question": "What is the correct way to open a file in Python?",
+        "options": [
+          {"text": "open(file, 'r')", "value": false},
+          {"text": "file.open('r')", "value": false},
+          {"text": "openfile('r')", "value": false},
+          {"text": "open(file, 'rb')", "value": false},
+          {"text": "open(file, 'r')", "value": true}
+        ],
+        "points": 10,
+        "category": "hard"
+      },
+      {
+        "question": "What is the output of the following code?\n\nprint('hello world'.split()[::-1])",
+        "options": [
+          {"text": "['world', 'hello']", "value": true},
+          {"text": "['hello', 'world']", "value": false},
+          {"text": "['world', 'hello']", "value": false},
+          {"text": "Error", "value": false},
+          {"text": "None of the above", "value": false}
+        ],
+        "points": 10,
+        "category": "hard"
+      },
+      {
+        "question": "What is the output of the following code?\n\nprint(len(set([1, 2, 3, 1, 2, 3])))",
+        "options": [
+          {"text": "3", "value": true},
+          {"text": "6", "value": false},
+          {"text": "1", "value": false},
+          {"text": "Error", "value": false},
+          {"text": "None of the above", "value": false}
+        ],
+        "points": 10,
+        "category": "hard"
+      }     
 ]
   
