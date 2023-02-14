@@ -29,15 +29,16 @@ body {
   }
   
   #true-button, #false-button {
-    width: 150px;
     height: 50px;
     font-size: 20px;
     margin: 20px;
+    width: 15%;
     border-radius: 10px;
     border: none;
     color: #fff;
     background-color: #4CAF50;
     cursor: pointer;
+    text-align: center;
     transition: all 0.3s;
   }
   

@@ -15,6 +15,7 @@ fetch("questions.json")
   const questionContainer = document.querySelector("#question-container");
   const scoreContainer = document.querySelector("#score");
   const timerContainer = document.querySelector("#timer");
+  const buttonsContainer = document.querySelector("#buttons-container");
 
   startButton.addEventListener("click", () => {
     while (randomQuestions.length < questionsToAsk) {
@@ -27,7 +28,10 @@ fetch("questions.json")
     falseButton.addEventListener("click", () => checkAnswer(false));
     showQuestion(randomQuestions[currentQuestionIndex]);
     startButton.style.display = "none";
+    buttonsContainer.style.display = "flex";
+
   });
+
 
   function checkAnswer(answer) {
     const currentQuestion = randomQuestions[currentQuestionIndex];
