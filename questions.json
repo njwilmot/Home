@@ -1,0 +1,124 @@
+[
+    {
+      "question": "In Python, the continue statement is used to skip the current iteration of a loop.",
+      "answer_type": "True/False",
+      "answer": true,
+      "points": 10
+    },
+    {
+      "question": "In Python, the list data type is mutable.",
+      "answer_type": "True/False",
+      "answer": true,
+      "points": 10
+    },
+    {
+      "question": "In Python, the for loop is used for iteration over a range of numbers.",
+      "answer_type": "True/False",
+      "answer": true,
+      "points": 10
+    },
+    {
+      "question": "In Python, the None value is equivalent to the null value in other programming languages. ",
+      "answer_type": "True/False",
+      "answer": true,
+      "points": 10
+    },
+    {
+      "question": "In Python, the del keyword is used to delete a variable.",
+      "answer_type": "True/False",
+      "answer": true,
+      "points": 10
+    },
+    {
+      "question": "In Python, the pass statement is used to do nothing.",
+      "answer_type": "True/False",
+      "answer": true,
+      "points": 10
+    },
+    {
+      "question": "In Python, the break statement is used to exit a loop prematurely.",
+      "answer_type": "True/False",
+      "answer": true,
+      "points": 10
+    },
+    {
+      "question": "In Python, the if statement is used for conditional execution. ",
+      "answer_type": "True/False",
+      "answer": true,
+      "points": 10
+    },
+    {
+      "question": "In Python, the input function is used to read data from the keyboard.",
+      "answer_type": "True/False",
+      "answer": true,
+      "points": 10
+    },
+    {
+      "question": "In Python, the str data type is used to store sequences of characters.",
+      "answer_type": "True/False",
+      "answer": true,
+      "points": 10
+    },
+    {
+      "question": "In Python, the len function returns the number of elements in a list.",
+      "answer_type": "True/False",
+      "answer": true,
+      "points": 10
+    },
+    {
+      "question": "In Python, all variables are case-sensitive",
+      "answer_type": "True/False",
+      "answer": false,
+      "points": 10
+    },
+    {
+      "question": "In Python, the elif keyword is used for error handling. ",
+      "answer_type": "True/False",
+      "answer": false,
+      "points": 10
+    },
+    {
+      "question": "In Python, the int data type is used to store floating-point numbers.",
+      "answer_type": "True/False",
+      "answer": false,
+      "points": 10
+    },
+    {
+      "question": "In Python, the tuple data type is mutable.",
+      "answer_type": "True/False",
+      "answer": false,
+      "points": 10
+    },
+    {
+    "question": "In Python, the range function generates a list of numbers.",
+    "answer_type": "True/False",
+    "answer": false,
+    "points": 10
+    },
+    {
+        "question": "In Python, the while loop is used for iterating over a sequence.",
+        "answer_type": "True/False",
+        "answer": false,
+        "points": 10
+    },
+    {
+        "question": "In Python, the float data type is used to store whole numbers.",
+        "answer_type": "True/False",
+        "answer": false,
+        "points": 10
+    },
+    {
+        "question": "In Python, the and operator is used to perform logical OR operation. ",
+        "answer_type": "True/False",
+        "answer": false,
+        "points": 10
+    },
+    {
+        "question": "In Python, the print function automatically adds a newline character at the end.",
+        "answer_type": "True/False",
+        "answer": false,
+        "points": 10
+    }
+            
+]
+  
