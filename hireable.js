@@ -1,31 +1,33 @@
-
-
 fetch("questions.json")
 .then(response => response.json())
 .then(data => {
-questions = data;
-const numQuestions = questions.length;
-const questionsToAsk = Math.ceil(numQuestions * 0.25);
-const randomQuestions = [];
-
-  while (randomQuestions.length < questionsToAsk) {
-    let randomIndex = Math.floor(Math.random() * numQuestions);
-    if (!randomQuestions.includes(questions[randomIndex])) {
-      randomQuestions.push(questions[randomIndex]);
-    }
-  }
-
+  questions = data;
+  const numQuestions = questions.length;
+  const questionsToAsk = Math.ceil(numQuestions * 0.25);
+  const randomQuestions = [];
+  
   let score = 0;
   let currentQuestionIndex = 0;
 
   const trueButton = document.querySelector("#true-button");
   const falseButton = document.querySelector("#false-button");
+  const startButton = document.querySelector("#start-button");
   const questionContainer = document.querySelector("#question-container");
   const scoreContainer = document.querySelector("#score");
   const timerContainer = document.querySelector("#timer");
 
-  trueButton.addEventListener("click", () => checkAnswer(true));
-  falseButton.addEventListener("click", () => checkAnswer(false));
+  startButton.addEventListener("click", () => {
+    while (randomQuestions.length < questionsToAsk) {
+      let randomIndex = Math.floor(Math.random() * numQuestions);
+      if (!randomQuestions.includes(questions[randomIndex])) {
+        randomQuestions.push(questions[randomIndex]);
+      }
+    }
+    trueButton.addEventListener("click", () => checkAnswer(true));
+    falseButton.addEventListener("click", () => checkAnswer(false));
+    showQuestion(randomQuestions[currentQuestionIndex]);
+    startButton.style.display = "none";
+  });
 
   function checkAnswer(answer) {
     const currentQuestion = randomQuestions[currentQuestionIndex];
@@ -62,7 +64,4 @@ const randomQuestions = [];
       }
     }, 1000);
   }
-
-  showQuestion(randomQuestions[currentQuestionIndex]);
-  
 });
