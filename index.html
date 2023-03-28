@@ -1,38 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-    
-    <head>
-        
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Noah Wilmot</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/pfp.jpg" />
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Noah Wilmot</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.PNG" alt="..." /></span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
-                </ul>
-            </div>
-        </nav>
-        <div class="container-fluid p-0">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Noah Wilmot</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/pfp.jpg" />
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="js/sketch.js"></script>
+</head>
+<body id="page-top">
+<style>
+    .dev-icons img[src="c.png"] {
+        width: 45px;
+        filter: grayscale(100%);
+    }
+</style>
+<video autoplay loop muted id="bg-video">
+    <source src="video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <span class="d-block d-lg-none">Noah Wilmot</span>
+            <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.PNG" alt="..." /></span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid p-0">
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
                     <h1 class="mb-0">
@@ -45,10 +55,8 @@
                     </div>
                     <p class="lead mb-5">Motivated computer science graduate with a strong academic background and practical experience in software development. Skilled in multiple programming languages, including Python, C/C++, Java, and more. Knowledgeable in data structures, algorithms, and software engineering principles.</p>
                     <div class="social-icons">
-                        <a class="social-icon" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>
+                        <a class="social-icon" href="https://www.linkedin.com/in/noah-wilmot-b57809263/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/njwilmot"><i class="fab fa-github"></i></a>
                     </div>
                 </div>
             </section>
@@ -68,6 +76,29 @@
                 </div>
             </section>
             <hr class="m-0" />
+            <!-- Projects-->
+            <section class="resume-section" id="projects"">
+            <h2 class="mb-5">Projects</h2>
+            <ul class="list-unstyled">
+                <li>
+                    <h3 class="mb-0">C++ School Compiler Project | January 2022-March 2022</h3>
+                    <p>Designed and constructed a compiler in C++ for a robust programming language. The compiler was responsible for generating an intermediate representation of a program in the form of a data structure, which was then interpreted for execution. This aided in practical experience for the field of system design in C++.</p>
+                </li>
+                <li>
+                    <h3 class="mb-0">Python Blockchain School Project | August 2022-November 2022</h3>
+                    <p>Developed a Blockchain project using Python and GitHub to create a decentralized, secure, and tamperproof ledger for cryptocurrency transactions. Implemented consensus algorithms such as Proof-of-Work to validate transactions and ensure the integrity of the blockchain.</p>
+                </li>
+                <li>
+                    <h3 class="mb-0">Java Healthcare Portal School Project | August 2021-December 2021</h3>
+                    <p>Worked as part of a team to develop a healthcare portal using Java and MySQL databases. Collaborated with healthcare professionals to identify requirements and create a user-friendly interface for patients and providers. Designed and implemented secure login and authentication features using industry-standard encryption algorithms. Utilized agile development methodologies, such as Scrum and JIRA, to manage the project and ensure timely delivery of software components.</p>
+                </li>
+                <h3 class="mb-0">Cellular Automaton Visualization</h3>
+                <p>Cellular automata are mathematical models made up of a grid of cells that can change their state based on simple rules. They produce complex and interesting patterns over time, helping us understand how simple rules can lead to complex behaviors. They have practical applications in fields like physics, biology, and computer science.</p>
+                
+                <div id="cellular-automaton"></div>
+            </ul>
+        </section>
+            <hr class="m-0" />
             <!-- Education-->
             <section class="resume-section" id="education">
                 <div class="resume-section-content">
@@ -77,6 +108,12 @@
                             <h3 class="mb-0">Arizona State University | Ira A. Fulton Schools of Engineering </h3>
                             <div class="subheading mb-3">Bachelor of Science</div>
                             <div>Computer Science & Cybersecurity</div>
+                            <ul class="fa-ul mb-0">
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                                    Dean's List
+                                </li>
+                            </ul>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">Graduated December 2022</span></div>
                     </div>
@@ -85,82 +122,98 @@
                             <h3 class="mb-0">Cactus Shadows High School</h3>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">August 2014 - May 2018</span></div>
-                    </div>
-                </div>
             </section>
             <hr class="m-0" />
-            <!-- Skills-->
-            <section class="resume-section" id="skills">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-less"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
-                    </ul>
-                    <div class="subheading mb-3">Workflow</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Mobile-First, Responsive Design
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Browser Testing & Debugging
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Functional Teams
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Agile Development & Scrum
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <hr class="m-0" />
+                        <!-- Skills--> 
+                        <section class="resume-section" id="skills">
+                            <div class="resume-section-content">
+                                <h2 class="mb-5">Skills</h2>
+                                <div class="subheading mb-3">Programming Languages & Tools</div>
+                                <ul class="list-inline dev-icons">
+                                    <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                                    <li class="list-inline-item"><i class="fab fa-java"></i></li>
+                                    <li class="list-inline-item"><img class="img-cpp" src="c.png" ></li>
+                                    <li class="list-inline-item"><i class="fab fa-linux"></i></li>
+                                    <li class="list-inline-item"><i class="fab fa-aws"></i></li>
+                                    <li class="list-inline-item"><i class="fab fa-windows"></i></li>
+                                    <li class="list-inline-item"><i class="fab fa-github"></i></li>
+                                    <li class="list-inline-item"><i class="fab fa-react"></i></li>
+                                    <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                                    <li class="list-inline-item"><i class="fab fa-react"></i></li>
+                                    <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
+                                </ul>
+                                <div class="subheading mb-3">Workflow</div>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <i class="fas fa-check mr-2"></i>
+                                        Proficient in Linux, C, C++, and Python programming languages
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check mr-2"></i>
+                                        Clear understanding of software engineering concepts, principles, and theories
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check mr-2"></i>
+                                        Experienced in software development process and Agile methodology
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check mr-2"></i>
+                                        Ability to learn new information quickly and handle increasing responsibilities with growing complexity
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check mr-2"></i>
+                                        Strong problem-solving and analytical skills
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check mr-2"></i>
+                                        Proficient in data structures, algorithms, and object-oriented programming
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check mr-2"></i>
+                                        Experience with front-end web development using HTML, CSS, and JavaScript
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check mr-2"></i>
+                                        Familiarity with version control systems such as Git
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check mr-2"></i>
+                                        Strong communication and interpersonal skills, with the ability to work effectively in a team environment
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check mr-2"></i>
+                                        Experience with cloud computing platforms such as AWS or Azure
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check mr-2"></i>
+                                        Knowledge of database systems such as SQL and NoSQL
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check mr-2"></i>
+                                        Strong attention to detail and the ability to write clean, maintainable code
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check mr-2"></i>
+                                        Experience with software testing and debugging
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
             <!-- Interests-->
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Interests</h2>
-                    <p>Apart from being a programmer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+                    <p>Coding: I have a passion for writing code and enjoy working on personal projects in my free time. I am proficient in several programming languages including Java, Python, and C++. </p>
+                    <p>Artificial Intelligence and Machine Learning: I am fascinated by the potential of AI and machine learning to transform industries and improve people's lives. I have experience with building neural networks and working with popular machine learning libraries such as TensorFlow and Keras.</p>
+                    <p>Web Development: I enjoy creating interactive and dynamic web applications using frameworks like React and Angular. I have experience building full-stack web applications with Node.js and Express.js.</p>
+                    <p>Technology Trends: I keep up to date with the latest advancements in technology and am excited about the possibilities they present. I enjoy reading tech blogs and attending conferences and meetups to stay informed about emerging trends and technologies.</p>
+                    <p>Open-Source Contributions: I am an active contributor to several open-source projects and have experience collaborating with other developers on GitHub.</p>
+                    <p>When I'm not programming or learning about the mysteries of the universe, you can usually find me hitting the slopes and snowboarding during the winter months, or playing a round of golf during the summer. I also love to explore the outdoors, go on hikes, and take in the beauty of nature. </p>
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Awards-->
-            <section class="resume-section" id="awards">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Awards & Certifications</h2>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Arizona State University - Dean's List
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Arizona State University - Good Acadmeic Standing
-                        </li>
-                        <li>
-                            Working on CCNA Certification
-                        </li>
-                    </ul>
-                </div>
-            </section>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-
         <script src="js/scripts.js"></script>
     </body>
 </html>
